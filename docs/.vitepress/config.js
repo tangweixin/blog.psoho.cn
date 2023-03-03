@@ -49,6 +49,14 @@ export default {
           ]
         },
         {
+          text: 'Elastic',
+          items: [
+            {text: '快速搭建ELK', link: '/skill/elastic/install-elk.md'},
+            {text: '采集nginx日志', link: '/skill/elastic/pick-nginx-log.md'},
+            {text: '采集java程序日志', link: '/skill/elastic/pick-java-log.md'},
+          ]
+        },
+        {
           text: '大数据',
           items: [
             {text: '大数据概述', link: '/skill/bigdata/index.md'},
@@ -74,6 +82,7 @@ export default {
           text: '创业',
           items: [
             {text: '简介', link: '/startup/index.md'},
+            {text: '鲁莽定律', link: '/startup/the-lu-mang-law.md'},
           ]
         },
       ],
