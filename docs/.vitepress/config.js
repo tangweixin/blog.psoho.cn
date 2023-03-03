@@ -1,6 +1,6 @@
 export default {
   title: 'Alex小新',
-  description: '物有本末，事有终始',
+  description: '物有本末，事有终始 Alex小新的个人博客 技术人生',
 
   themeConfig: {
 
@@ -36,16 +36,26 @@ export default {
 
       '/skill/': [
         {
-          text: 'Linux',
+          text: '后端',
           items: [
-            {text: '常用命令', link: '/skill/linux/shell.md'},
-            {text: '运维小技巧', link: '/skill/linux/operation-tips.md'},
+            {text: '常用命令', link: '/skill/backend/shell.md'},
+            {text: '运维小技巧', link: '/skill/backend/operation-tips.md'},
           ]
         },
         {
           text: '前端',
           items: [
-            {text: 'CSS布局', link: '/skill/frontend/flex.md'},
+            {text: 'Flex布局', link: '/skill/frontend/css-flex.md'},
+          ]
+        },
+        {
+          text: '大数据',
+          items: [
+            {text: '大数据概述', link: '/skill/bigdata/index.md'},
+            {text: 'HDFS常用命令', link: '/skill/bigdata/hdfs.md'},
+            {text: 'Hive基础', link: '/skill/bigdata/hive.md'},
+            {text: 'Spark基础', link: '/skill/bigdata/spark.md'},
+            {text: 'Scala基础', link: '/skill/bigdata/scala.md'},
           ]
         },
       ],
