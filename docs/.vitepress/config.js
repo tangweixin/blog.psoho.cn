@@ -26,6 +26,10 @@ export default {
       {text: '文学', link: '/culture/'},
     ],
 
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/tangweixin/blog.psoho.cn' },
+    ],
+
     outline: [2,3],
 
     sidebar: {
@@ -35,6 +39,7 @@ export default {
           text: 'Linux',
           items: [
             {text: '常用命令', link: '/skill/linux/shell.md'},
+            {text: '运维小技巧', link: '/skill/linux/operation-tips.md'},
           ]
         },
         {
