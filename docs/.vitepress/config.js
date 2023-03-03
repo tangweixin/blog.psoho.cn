@@ -20,25 +20,36 @@ export default {
       copyright: 'Copyright © 2019~2023 由vitepress强力驱动'
     },
     nav: [
-      {text: '文学', link: '/culture/'},
       {text: '技术', link: '/skill/'},
+      {text: '记录', link: '/record/'},
       {text: '创业', link: '/startup/'},
+      {text: '文学', link: '/culture/'},
     ],
+
+    outline: [2,3],
+
     sidebar: {
-      '/culture/': [
-        {
-          text: '文学',
-          items: [
-            {text: '简介', link: '/startup/index.md'},
-          ]
-        },
-      ],
 
       '/skill/': [
         {
           text: 'Linux',
           items: [
-            {text: 'Linux', link: '/skill/linux/index.md'},
+            {text: '常用命令', link: '/skill/linux/shell.md'},
+          ]
+        },
+        {
+          text: '前端',
+          items: [
+            {text: 'CSS布局', link: '/skill/frontend/flex.md'},
+          ]
+        },
+      ],
+
+      '/record/': [
+        {
+          text: '记录',
+          items: [
+            {text: '简介', link: '/startup/index.md'},
           ]
         },
       ],
@@ -50,9 +61,17 @@ export default {
             {text: '简介', link: '/startup/index.md'},
           ]
         },
-      ]
-    },
+      ],
 
+      '/culture/': [
+        {
+          text: '文学',
+          items: [
+            {text: '简介', link: '/startup/index.md'},
+          ]
+        },
+      ],
+    },
 
   }
 }
