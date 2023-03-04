@@ -9,7 +9,7 @@ export default {
   },
   base: '/doc/',
   lang: 'zh-CN',
-  title: '小新的世界',
+  title: 'Alex小新',
   description: '物有本末，事有终始 Alex小新的个人博客 技术人生',
   head: [
     // 添加百度统计代码
