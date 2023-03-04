@@ -45,7 +45,6 @@ export default {
     },
     nav: [
       {text: '技术', link: '/skill/'},
-      {text: '记录', link: '/record/'},
       {text: '创业', link: '/startup/'},
       {text: '文学', link: '/culture/'},
     ],
