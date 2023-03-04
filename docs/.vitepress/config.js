@@ -100,6 +100,7 @@ export default {
             {text: 'Docker入门指南', link: '/skill/docker/'},
             {text: '跨主机通讯Swarm', link: '/skill/docker/across-hosts-swarm.md'},
             {text: '跨主机通讯Consul', link: '/skill/docker/across-hosts-consul.md'},
+            {text: 'Swarm实战', link: '/skill/docker/swarm.md'},
           ]
         },
         {
