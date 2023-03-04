@@ -1,7 +1,5 @@
 # 运维小技巧
 
-## 运维
-
 ## 更改用户分组
 
 ```bash
@@ -243,4 +241,61 @@ find . -type f -mtime +7 -name "*.log"
 
 # 查找7天前的日志文件并删除
 find . -type f -mtime +7 -name "*.log" | xargs -I {} rm -rf {}
+```
+
+## 测速
+
+开发和测试环境文件上传都很快，基本能达到2~3M/s，而生产很慢环境，于是开始分析原因。初步判断是由于接入了负载，不稳定造成的。遂进行服务器直连网速测试。
+
+```bash
+# 上传测试
+# 服务端
+nc -l -p 17911 > /dev/null
+
+# 客户端
+nc ip 17911 < /dev/zero 
+
+# 服务端监控(如果有多个网卡，需要切换到对应外网网卡才行，一般是eth0)
+nload -u H
+```
+
+## svg转png
+
+参考：https://cairosvg.org/
+
+```bash
+# 安装cairosvg
+pip3 install cairosvg
+
+# 执行转换
+cairosvg Google.svg -o google.png 
+```
+
+```python
+# python代码方式
+import cairosvg
+cairosvg.svg2pdf(url='image.svg', write_to='image.pdf')
+```
+
+## 初学者入门
+
+```bash
+# 查找xxx
+locate xxx
+```
+
+```bash
+# 在哪里
+which cal
+```
+
+```bash
+# 解释
+whatis cal
+```
+
+```bash
+# 用户信息
+users
+id
 ```
