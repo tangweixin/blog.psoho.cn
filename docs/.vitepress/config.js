@@ -73,6 +73,9 @@ export default {
             {text: 'Grafana', link: '/skill/linux/grafana-mysql.md'},
             {text: 'HTTPS证书', link: '/skill/linux/https-certificate.md'},
             {text: 'btop', link: '/skill/linux/install-btop.md'},
+            {text: 'JMeter', link: '/skill/linux/jmeter.md'},
+            {text: 'kafaka', link: '/skill/linux/kafaka.md'},
+            {text: 'K8S', link: '/skill/linux/k8s.md'},
           ]
         },
         {
@@ -80,6 +83,12 @@ export default {
           items: [
             {text: 'Maven', link: '/skill/java/maven.md'},
             {text: 'IDEA开发工具', link: '/skill/java/develop-tool-idea.md'},
+          ]
+        },
+        {
+          text: 'Python',
+          items: [
+            {text: '快速开始', link: '/skill/python/python-quickstart.md'},
           ]
         },
         {
@@ -101,6 +110,7 @@ export default {
           text: '前端',
           items: [
             {text: 'Flex布局', link: '/skill/frontend/css-flex.md'},
+            {text: 'NodeJS', link: '/skill/frontend/nodejs.md'},
           ]
         },
         {
