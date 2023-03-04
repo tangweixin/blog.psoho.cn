@@ -7,7 +7,7 @@ export default {
     theme: 'github-dark',
     lineNumbers: true
   },
-  base: '/doc/',
+  // base: '/doc/',
   lang: 'zh-CN',
   title: 'Alex小新',
   description: '物有本末，事有终始 Alex小新的个人博客 技术人生',
