@@ -12,6 +12,9 @@ hero:
     - theme: alt
       text: Docker
       link: /skill/docker/
+    - theme: alt
+      text: Python
+      link: /skill/python/
 
 
 features:

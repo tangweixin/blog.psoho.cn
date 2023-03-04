@@ -88,7 +88,7 @@ export default {
         {
           text: 'Python',
           items: [
-            {text: '快速开始', link: '/skill/python/python-quickstart.md'},
+            {text: '快速开始', link: '/skill/python/index.md'},
           ]
         },
         {
