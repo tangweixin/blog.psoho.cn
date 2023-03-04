@@ -34,7 +34,7 @@ bin/kafka-server-start.sh config/server.properties
 #### 创建`topic`
 
 ```bash
-#bin/kafka-topics.sh --create --partitions 1 --replication-factor 1 --topic quickstart-events --bootstrap-server localhost:9092
+#bin/kafka-topics.sh --create --partitions 1 --replication-factor 1 --topic quickstart-events --bootstrap-server 127.0.0.1:9092
 bin/kafka-topics.sh --create --zookeeper 127.0.0.1:2181 --partitions 1 --replication-factor 1 --topic quickstart-events 
 ```
 
@@ -47,7 +47,7 @@ bin/kafka-topics.sh --list --zookeeper 127.0.0.1:2181
 #### 发送消息
 
 ```bash
-bin/kafka-console-producer.sh --broker-list localhost:9092 --topic quickstart-events
+bin/kafka-console-producer.sh --broker-list 127.0.0.1:9092 --topic quickstart-events
 ```
 
 ![image-20211214204400697](./assets/mqV5s7IOMrj3vfW.png)
@@ -55,7 +55,7 @@ bin/kafka-console-producer.sh --broker-list localhost:9092 --topic quickstart-ev
 #### 接收消息
 
 ```bash
-bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic quickstart-events --from-beginning
+bin/kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic quickstart-events --from-beginning
 ```
 
 ![image-20211214204424683](./assets/OGhSP2p9nzaEwXD.png)
@@ -63,12 +63,12 @@ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic quicksta
 #### 查看`topic`详情
 
 ```bash
-bin/kafka-topics.sh --zookeeper localhost:2181 --describe  --topic quickstart-events
+bin/kafka-topics.sh --zookeeper 127.0.0.1:2181 --describe  --topic quickstart-events
 ```
 
 #### 删除`topic`
 
 ```bash
-bin/kafka-topics.sh --zookeeper localhost:2181 --delete  --topic quickstart-events
+bin/kafka-topics.sh --zookeeper 127.0.0.1:2181 --delete  --topic quickstart-events
 ```
 

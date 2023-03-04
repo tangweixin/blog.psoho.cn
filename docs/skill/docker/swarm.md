@@ -67,7 +67,7 @@ networks:
 docker-compose up -d 
 
 # 查看所有镜像
-curl -X GET localhost:5000/v2/_catalog
+curl -X GET 127.0.0.1:5000/v2/_catalog
 
 # 测试推送镜像
 # 拉取镜像

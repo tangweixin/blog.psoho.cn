@@ -109,7 +109,7 @@ cp mysql-connector-java-8.0.18.jar /root/soft/cm-5.6.1/share/cmf/lib/
 vim /root/soft/cm-5.6.1/etc/cloudera-scm-agent/config.ini 
 [General]
 # Hostname of the CM server.
-#server_host=localhost
+#server_host=127.0.0.1
 server_host=cdh30
 
 # 准备parcel

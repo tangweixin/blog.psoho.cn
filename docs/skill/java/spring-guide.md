@@ -1,12 +1,10 @@
 # Spring
 
-`Spring` Ja 
-
-## Spring常用工具类
-
-本篇介绍`spring`自带的工具类，熟练掌握后有助于提升开发效率。
+`Spring` Java的事实标准
 
 ## spring-core
+
+本篇介绍`spring`自带的工具类，熟练掌握后有助于提升开发效率。
 
 该包主要提供一些基础的工具类，包名为：`org.springframework.util`。
 
@@ -21,8 +19,6 @@ System.out.println(s);
 s = new String(Base64Utils.decodeFromString(s));            // 解码
 System.out.println(s);
 ```
-
-<!--more-->
 
 ### ClassUtils
 

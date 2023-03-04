@@ -82,6 +82,7 @@ export default {
         {
           text: 'Java',
           items: [
+            {text: 'Spring', link: '/skill/java/spring-guide.md'},
             {text: 'Maven', link: '/skill/java/maven.md'},
             {text: 'IDEA开发工具', link: '/skill/java/develop-tool-idea.md'},
             {text: 'SpringBoot', link: '/skill/java/spring-boot.md'},

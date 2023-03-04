@@ -31,7 +31,7 @@ management:
       show-details: always
 ```
 
-[http://localhost:8080/actuator/health](http://localhost:8080/actuator/health)
+[http://127.0.0.1:8080/actuator/health](http://127.0.0.1:8080/actuator/health)
 
 ```json
 {

@@ -78,7 +78,7 @@ kubectl delete pods kubernetes-bootcamp-xxxx
 kubectl proxy
 
 # 访问
-curl http://localhost:8001/api/v1/proxy/namespaces/default/pods/kubernetes-bootcamp/
+curl http://127.0.0.1:8001/api/v1/proxy/namespaces/default/pods/kubernetes-bootcamp/
 
 # 查看所有API版本
 kubectl api-versions
@@ -124,7 +124,7 @@ kubectl create -f nginx-pod.yaml
 # 查看pods
 kubectl get pods
 
-curl http://localhost:8001/api/v1/proxy/namespaces/default/pods/nginx/
+curl http://127.0.0.1:8001/api/v1/proxy/namespaces/default/pods/nginx/
 ```
 
 #### 创建Deployment

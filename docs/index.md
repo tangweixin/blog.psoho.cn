@@ -12,6 +12,9 @@ hero:
     - theme: alt
       text: Docker
       link: /skill/docker/
+    - theme: brand
+      text: Java
+      link: /skill/java/spring-guide.md
     - theme: alt
       text: Python
       link: /skill/python/
