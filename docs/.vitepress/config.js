@@ -48,6 +48,20 @@ export default {
           ]
         },
         {
+          text: 'Docker',
+          items: [
+            {text: 'Docker入门指南', link: '/skill/docker/docker-guide.md'},
+            {text: 'MySQL优化记录', link: '/skill/prod/mysql-optimize.md'},
+          ]
+        },
+        {
+          text: '生产纪实',
+          items: [
+            {text: 'DB跑满的生产事故复盘', link: '/skill/prod/db-full-record.md'},
+            {text: 'MySQL优化记录', link: '/skill/prod/mysql-optimize.md'},
+          ]
+        },
+        {
           text: '前端',
           items: [
             {text: 'Flex布局', link: '/skill/frontend/css-flex.md'},
