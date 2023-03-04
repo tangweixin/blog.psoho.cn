@@ -40,6 +40,7 @@ export default {
           items: [
             {text: '常用命令', link: '/skill/linux/shell.md'},
             {text: '运维小技巧', link: '/skill/linux/operation-tips.md'},
+            {text: 'ffmpeg命令收藏', link: '/skill/linux/ffmpeg-commands-favorites.md'},
           ]
         },
         {
