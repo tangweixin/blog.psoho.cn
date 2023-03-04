@@ -38,9 +38,9 @@ export default {
         {
           text: 'Linux',
           items: [
-            {text: '常用命令', link: '/skill/linux/shell-favorites.md'},
-            {text: 'shell脚本', link: '/skill/linux/shell-base.md'},
+            {text: '常用命令', link: '/skill/linux/index.md'},
             {text: '运维小技巧', link: '/skill/linux/operation-tips.md'},
+            {text: 'shell脚本', link: '/skill/linux/shell-base.md'},
             {text: 'ffmpeg命令收藏', link: '/skill/linux/ffmpeg-commands-favorites.md'},
           ]
         },
