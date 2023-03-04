@@ -84,6 +84,8 @@ export default {
           items: [
             {text: 'Maven', link: '/skill/java/maven.md'},
             {text: 'IDEA开发工具', link: '/skill/java/develop-tool-idea.md'},
+            {text: 'SpringBoot', link: '/skill/java/spring-boot.md'},
+            {text: 'SpringCloud', link: '/skill/java/spring-cloud.md'},
           ]
         },
         {
@@ -115,6 +117,7 @@ export default {
           items: [
             {text: 'Flex布局', link: '/skill/frontend/css-flex.md'},
             {text: 'NodeJS', link: '/skill/frontend/nodejs.md'},
+            {text: 'CSS经典', link: '/skill/frontend/css-classics.md'},
           ]
         },
         {
