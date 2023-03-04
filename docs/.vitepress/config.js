@@ -46,14 +46,16 @@ export default {
             {text: 'RTMP流媒体服务', link: '/skill/linux/build-rtmp-stream-server-base-on-docker.md'},
             {text: 'DB小技巧', link: '/skill/linux/db-tips.md'},
             {text: 'ESXi-vSphere', link: '/skill/linux/ESXi-vSphere.md'},
-            {text: 'Grafana数据报表', link: '/skill/linux/grafana-mysql.md'},
+            {text: 'Grafana', link: '/skill/linux/grafana-mysql.md'},
             {text: 'HTTPS证书', link: '/skill/linux/https-certificate.md'},
+            {text: 'btop', link: '/skill/linux/install-btop.md'},
           ]
         },
         {
           text: 'Java',
           items: [
-            {text: 'Maven构建优化', link: '/skill/java/maven-build-optimize'},
+            {text: 'Maven构建优化', link: '/skill/java/maven-build-optimize.md'},
+            {text: 'IDEA开发工具', link: '/skill/java/develop-tool-idea.md'},
           ]
         },
         {
