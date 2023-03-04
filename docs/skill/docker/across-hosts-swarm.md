@@ -37,14 +37,14 @@ Swarm initialized: current node (yzb76l5u402828v3uhpusfv8f) is now a manager.
 
 To add a worker to this swarm, run the following command:
 
-    docker swarm join --token SWMTKN-1-4i3w7m3k7lkhukxmcgagn8pcyin7qugmltoi7jropzorfyib0w-cvq57sikpeejb3tpqnrdbf1rq 172.17.0.5:2377
+    docker swarm join --token SWMTKN-1-***********-cvq57sikpeejb3tpqnrdbf1rq 172.17.0.5:2377
 
 To add a manager to this swarm, run 'docker swarm join-token manager' and follow the instructions.
 
 root@docker01:~# 
 
 # 添加普通节点
-root@docker02:~# docker swarm join --token SWMTKN-1-4i3w7m3k7lkhukxmcgagn8pcyin7qugmltoi7jropzorfyib0w-cvq57sikpeejb3tpqnrdbf1rq 172.17.0.5:2377
+root@docker02:~# docker swarm join --token SWMTKN-1-***********-cvq57sikpeejb3tpqnrdbf1rq 172.17.0.5:2377
 This node joined a swarm as a worker.
 
 # 查看节点
@@ -60,7 +60,7 @@ root@docker01:~#
 root@docker01:~# docker swarm join-token manager
 To add a manager to this swarm, run the following command:
 
-    docker swarm join --token SWMTKN-1-4i3w7m3k7lkhukxmcgagn8pcyin7qugmltoi7jropzorfyib0w-dpks47on2ueexia3hl0ce3lfy 172.17.0.5:2377
+    docker swarm join --token SWMTKN-1-***********-dpks47on2ueexia3hl0ce3lfy 172.17.0.5:2377
 
 # 查看节点
 root@docker01:~# docker node ls 
