@@ -45,7 +45,9 @@ export default {
             {text: 'ffmpeg命令收藏', link: '/skill/linux/ffmpeg-commands-favorites.md'},
             {text: 'RTMP流媒体服务', link: '/skill/linux/build-rtmp-stream-server-base-on-docker.md'},
             {text: 'DB小技巧', link: '/skill/linux/db-tips.md'},
-            {text: '安装ESXi-vSphere', link: '/skill/linux/install-ESXi-vSphere-6.5.md'},
+            {text: 'ESXi-vSphere', link: '/skill/linux/ESXi-vSphere.md'},
+            {text: 'Grafana数据报表', link: '/skill/linux/grafana-mysql.md'},
+            {text: 'HTTPS证书', link: '/skill/linux/https-certificate.md'},
           ]
         },
         {
@@ -57,7 +59,7 @@ export default {
         {
           text: 'Docker',
           items: [
-            {text: 'Docker入门指南', link: '/skill/docker/docker-guide.md'},
+            {text: 'Docker入门指南', link: '/skill/docker/'},
             {text: '跨主机通讯Swarm', link: '/skill/docker/across-hosts-swarm.md'},
             {text: '跨主机通讯Consul', link: '/skill/docker/across-hosts-consul.md'},
           ]

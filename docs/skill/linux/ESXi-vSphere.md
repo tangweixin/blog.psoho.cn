@@ -1,6 +1,4 @@
-# 安装ESXi-vSphere-6.5
-
-## ESXi6.5安装实录
+## 安装ESXi-vSphere-6.5
 
 ### 制作ESXi启动盘
 
