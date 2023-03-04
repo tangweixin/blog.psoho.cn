@@ -76,6 +76,7 @@ export default {
             {text: 'JMeter', link: '/skill/linux/jmeter.md'},
             {text: 'kafaka', link: '/skill/linux/kafaka.md'},
             {text: 'K8S', link: '/skill/linux/k8s.md'},
+            {text: 'RocksDB', link: '/skill/linux/rocksdb.md'},
           ]
         },
         {
@@ -89,6 +90,8 @@ export default {
           text: 'Python',
           items: [
             {text: '快速开始', link: '/skill/python/index.md'},
+            {text: 'Pandas', link: '/skill/python/pandas.md'},
+            {text: 'Scrapy', link: '/skill/python/scrapy.md'},
           ]
         },
         {
