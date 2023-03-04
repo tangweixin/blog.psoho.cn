@@ -165,15 +165,6 @@ export default {
         },
       ],
 
-      '/record/': [
-        {
-          text: '记录',
-          items: [
-            {text: '简介', link: '/startup/index.md'},
-          ]
-        },
-      ],
-
       '/startup/': [
         {
           text: '创业',
