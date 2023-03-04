@@ -122,6 +122,7 @@ export default {
           items: [
             {text: 'Flex布局', link: '/skill/frontend/css-flex.md'},
             {text: 'NodeJS', link: '/skill/frontend/nodejs.md'},
+            {text: 'ES6新特性', link: '/skill/frontend/es6.md'},
             {text: 'CSS经典', link: '/skill/frontend/css-classics.md'},
           ]
         },
