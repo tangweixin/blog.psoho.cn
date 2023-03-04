@@ -135,7 +135,7 @@ nginx日志请求情况，很明显接口【`/api/scrm/invite/getUserCoupon`】�
 
 > 2021-12-12 DB压力情况
 
-![image-20211212225924930](assets/image-20211212225924930.png)
+![image-20211212225924930](./assets/image-20211212225924930.png)
 
 > 2021-12-15  DB压力情况，更改了发送程序，异步发送
 
