@@ -77,6 +77,7 @@ export default {
             {text: 'kafaka', link: '/skill/linux/kafaka.md'},
             {text: 'K8S', link: '/skill/linux/k8s.md'},
             {text: 'RocksDB', link: '/skill/linux/rocksdb.md'},
+            {text: '搭建nexus3环境', link: '/skill/linux/nexus3.md'},
           ]
         },
         {
@@ -95,6 +96,7 @@ export default {
             {text: '快速开始', link: '/skill/python/index.md'},
             {text: 'Pandas', link: '/skill/python/pandas.md'},
             {text: 'Scrapy', link: '/skill/python/scrapy.md'},
+            {text: 'Tesseract文字识别', link: '/skill/python/tesseract.md'},
           ]
         },
         {
