@@ -22,23 +22,14 @@
 
 数据量概览
 
-![数据量概览](http://pic.qn.prodapi.cn/typora/hexo/thomas/8dbki.png)
-
 慢查询结果耗时
-
-![查询慢结果](http://pic.qn.prodapi.cn/typora/hexo/thomas/tnlyk.png)
 
 慢查询对应的执行计划
 
-![explain-slow](http://pic.qn.prodapi.cn/typora/hexo/thomas/4qfe7.png)
-
 优化后查询耗时
-
-![查询优化结果](http://pic.qn.prodapi.cn/typora/hexo/thomas/w88k6.png)
 
 优化后查询执行计划
 
-![explain-fast](http://pic.qn.prodapi.cn/typora/hexo/thomas/nrsiz.png)
 
 ### SQL记录
 

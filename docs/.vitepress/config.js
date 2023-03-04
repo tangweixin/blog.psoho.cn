@@ -111,8 +111,10 @@ export default {
         {
           text: '生产纪实',
           items: [
-            {text: 'DB跑满的生产事故复盘', link: '/skill/prod/db-full-record.md'},
-            {text: 'MySQL优化记录', link: '/skill/prod/mysql-optimize.md'},
+            {text: 'DB跑满复盘', link: '/skill/prod/db-full-record.md'},
+            {text: '响应时间过长', link: '/skill/prod/rt-too-long.md'},
+            {text: '线程过多', link: '/skill/prod/thread-too-more.md'},
+            {text: 'MySQL优化', link: '/skill/prod/mysql-optimize.md'},
           ]
         },
         {
