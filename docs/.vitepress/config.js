@@ -51,7 +51,8 @@ export default {
           text: 'Docker',
           items: [
             {text: 'Docker入门指南', link: '/skill/docker/docker-guide.md'},
-            {text: 'MySQL优化记录', link: '/skill/prod/mysql-optimize.md'},
+            {text: '跨主机通讯Swarm', link: '/skill/docker/across-hosts-swarm.md'},
+            {text: '跨主机通讯Consul', link: '/skill/docker/across-hosts-consul.md'},
           ]
         },
         {
