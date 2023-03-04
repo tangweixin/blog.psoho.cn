@@ -36,10 +36,10 @@ export default {
 
       '/skill/': [
         {
-          text: '后端',
+          text: 'Linux',
           items: [
-            {text: '常用命令', link: '/skill/backend/shell.md'},
-            {text: '运维小技巧', link: '/skill/backend/operation-tips.md'},
+            {text: '常用命令', link: '/skill/linux/shell.md'},
+            {text: '运维小技巧', link: '/skill/linux/operation-tips.md'},
           ]
         },
         {
