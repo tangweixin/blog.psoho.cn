@@ -1,10 +1,6 @@
----
-title: Elastic经典-快速搭建APM-链路追踪-JAVA应用
-date: 2022-01-16 23:37:09
-tags:
- - Elastic
-categories:
----
+# ES-APM-链路追踪-JAVA应用
+
+**APM** - **Application Performance Management**  
 
 ## Elastic经典-快速搭建APM-链路追踪-JAVA应用
 
@@ -89,7 +85,6 @@ setup.kibana:
 ```
 
 
-
 启动容器
 
 ```bassh
@@ -100,11 +95,11 @@ docker-compose up -d
 
 检查 `APM Server` 状态
 
-![image-20220117000732193](assets/image-20220117000732193.png)
+![image-20220117000732193](./assets/image-20220117000732193-7898165.png)
 
 ### 二、安装APM代理并启动JAVA应用
 
-![image-20220117000955136](assets/image-20220117000955136.png)
+![image-20220117000955136](./assets/image-20220117000955136-7898165.png)
 
 下载（elastic-apm-agent-1.28.4.jar）
 
@@ -131,35 +126,35 @@ mvn clean package -Dmaven.test.skip=true \
 
 看到以下信息表示启动成功
 
-![image-20220117001945280](assets/image-20220117001945280.png)
+![image-20220117001945280](./assets/image-20220117001945280-7898165.png)
 
 ### 三、查看APM监控
 
 此时在`APM服务`中，可以看到刚刚启动的应用
 
-![image-20220117002059383](assets/image-20220117002059383.png)
+![image-20220117002059383](./assets/image-20220117002059383-7898165.png)
 
 访问 http://127.0.0.1:8080/hello
 
 进入`my-application`服务详情查看。
 
-![image-20220117002342863](assets/image-20220117002342863.png)
+![image-20220117002342863](./assets/image-20220117002342863-7898165.png)
 
 点击JVM可以查看JVM内存情况
 
-![image-20220117002500780](assets/image-20220117002500780.png)
+![image-20220117002500780](./assets/image-20220117002500780-7898165.png)
 
 点击依赖项，可以查看依赖项的相关指标
 
-![image-20220117002854176](assets/image-20220117002854176.png)
+![image-20220117002854176](./assets/image-20220117002854176-7898165.png)
 
 查看链路的相关详情
 
-![image-20220117002948727](assets/image-20220117002948727.png)
+![image-20220117002948727](./assets/image-20220117002948727-7898165.png)
 
 服务地图，只能试用30天，可以直观的看到微服务相关的依赖图。
 
-![image-20220117003214897](assets/image-20220117003214897.png)
+![image-20220117003214897](./assets/image-20220117003214897-7898165.png)
 
 ### 四、实用技能（增加 traceId ）
 
@@ -255,12 +250,12 @@ public class DemoController {
 
 分别在响应对象和响应头上都返回了`traceId`,我们可以根据这个ID，追踪每个请求的具体调用链路。
 
-![image-20220117003841911](assets/image-20220117003841911.png)
+![image-20220117003841911](./assets/image-20220117003841911-7898165.png)
 
 在 `追溯` 里面输入刚刚返回的`traceId`,就可以查看本次事务详情了
 
-![image-20220117004208451](assets/image-20220117004208451.png)
+![image-20220117004208451](./assets/image-20220117004208451-7898165.png)
 
 进入事务详情，方便排查和定位生产问题。
 
-![image-20220117004253842](assets/image-20220117004253842.png)
+![image-20220117004253842](./assets/image-20220117004253842-7898165.png)

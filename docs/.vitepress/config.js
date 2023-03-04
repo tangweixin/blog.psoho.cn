@@ -51,9 +51,13 @@ export default {
         {
           text: 'Elastic',
           items: [
-            {text: '快速搭建ELK', link: '/skill/elastic/install-elk.md'},
+            {text: '安装ES', link: '/skill/elastic/install-es.md'},
+            {text: '安装ES+Kibana', link: '/skill/elastic/install-es-kibana.md'},
+            {text: '安装ELK', link: '/skill/elastic/install-elk.md'},
             {text: '采集nginx日志', link: '/skill/elastic/pick-nginx-log.md'},
-            {text: '采集java程序日志', link: '/skill/elastic/pick-java-log.md'},
+            {text: '采集java日志', link: '/skill/elastic/pick-java-log.md'},
+            {text: 'APM-java', link: '/skill/elastic/apm-java.md'},
+            {text: 'APM-java生产记录', link: '/skill/elastic/apm-java2.md'},
           ]
         },
         {
