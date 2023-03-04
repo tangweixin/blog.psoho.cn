@@ -172,13 +172,19 @@ export default {
             {text: '鲁莽定律', link: '/startup/the-lu-mang-law.md'},
           ]
         },
+        {
+          text: 'SaaS',
+          items: [
+            {text: 'SaaS简介', link: '/startup/saas/index.md'},
+          ]
+        },
       ],
 
       '/culture/': [
         {
           text: '文学',
           items: [
-            {text: '简介', link: '/startup/index.md'},
+            {text: '简介', link: '/culture/index.md'},
           ]
         },
       ],
