@@ -34,7 +34,7 @@ docker-compose up -d
 
 ##  访问Jenkins地址
 
-浏览器访问: [http://localhost:8080/](http://localhost:8080/)
+浏览器访问: [http://127.0.0.1:8080/](http://127.0.0.1:8080/)
 
 ![image-20210619150240441](./assets/008i3skNgy1grnl6uo32tj31d30u0dk8.jpg)
 
