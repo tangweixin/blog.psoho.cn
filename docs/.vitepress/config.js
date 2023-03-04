@@ -44,6 +44,7 @@ export default {
             {text: 'android-adb', link: '/skill/linux/android-adb.md'},
             {text: 'ffmpeg命令收藏', link: '/skill/linux/ffmpeg-commands-favorites.md'},
             {text: 'RTMP流媒体服务', link: '/skill/linux/build-rtmp-stream-server-base-on-docker.md'},
+            {text: 'DB小技巧', link: '/skill/linux/db-tips.md'},
           ]
         },
         {
