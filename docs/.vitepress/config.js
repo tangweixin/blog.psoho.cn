@@ -61,6 +61,20 @@ export default {
           ]
         },
         {
+          text: 'Jenkins',
+          items: [
+            {text: '安装Jenkins', link: '/skill/jenkins/install.md'},
+            {text: '视图管理', link: '/skill/jenkins/view.md'},
+            {text: '节点管理', link: '/skill/jenkins/node.md'},
+            {text: '构建springboot', link: '/skill/jenkins/build-springboot.md'},
+            {text: '构建springboot并部署', link: '/skill/jenkins/build-springboot-deploy.md'},
+            {text: '构建springboot部署到docker', link: '/skill/jenkins/build-springboot-deploy-to-docker.md'},
+            {text: '多参数构建', link: '/skill/jenkins/build-multi-params.md'},
+            {text: '用户和角色管理', link: '/skill/jenkins/role-user-manage.md'},
+            {text: '构建Android应用', link: '/skill/jenkins/build-android.md'},
+          ]
+        },
+        {
           text: '大数据',
           items: [
             {text: '大数据概述', link: '/skill/bigdata/index.md'},
