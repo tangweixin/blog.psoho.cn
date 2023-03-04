@@ -1,9 +1,4 @@
----
-title: install btop
-date: 2022-07-14 14:05:18
-tags:
-categories: 
----
+# btop
 
 ## install snap
 

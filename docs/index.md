@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: Alex小新
+  name: 小新的世界
   text: 物有本末，事有终始
   tagline: 几行代码，点滴人生
   actions:

@@ -1,6 +1,30 @@
 export default {
-  title: 'Alex小新',
+  // title: 'Alex小新',
+  // description: '物有本末，事有终始 Alex小新的个人博客 技术人生',
+
+  markdown: {
+    // theme: 'material-theme-palenight',
+    theme: 'github-dark',
+    lineNumbers: true
+  },
+  base: '/doc/',
+  lang: 'zh-CN',
+  title: '小新的世界',
   description: '物有本末，事有终始 Alex小新的个人博客 技术人生',
+  head: [
+    // 添加百度统计代码
+    ['script', {},
+      `
+   var _hmt = _hmt || [];
+   (function() {
+   var hm = document.createElement("script");
+   hm.src = "https://hm.baidu.com/hm.js?4f7ae596d95f8889e85ef97a224bef66";
+   var s = document.getElementsByTagName("script")[0];
+   s.parentNode.insertBefore(hm, s);
+   })();
+    `
+    ]
+  ],
 
   themeConfig: {
 
@@ -54,7 +78,7 @@ export default {
         {
           text: 'Java',
           items: [
-            {text: 'Maven构建优化', link: '/skill/java/maven-build-optimize.md'},
+            {text: 'Maven', link: '/skill/java/maven.md'},
             {text: 'IDEA开发工具', link: '/skill/java/develop-tool-idea.md'},
           ]
         },
