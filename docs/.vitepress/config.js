@@ -43,6 +43,7 @@ export default {
             {text: 'shell脚本', link: '/skill/linux/shell-base.md'},
             {text: 'android-adb', link: '/skill/linux/android-adb.md'},
             {text: 'ffmpeg命令收藏', link: '/skill/linux/ffmpeg-commands-favorites.md'},
+            {text: 'RTMP流媒体服务', link: '/skill/linux/build-rtmp-stream-server-base-on-docker.md'},
           ]
         },
         {
