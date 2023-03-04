@@ -86,6 +86,7 @@ export default {
             {text: 'Hive基础', link: '/skill/bigdata/hive.md'},
             {text: 'Spark基础', link: '/skill/bigdata/spark.md'},
             {text: 'Scala基础', link: '/skill/bigdata/scala.md'},
+            {text: '安装CDH', link: '/skill/bigdata/install-cdh.md'},
           ]
         },
       ],
