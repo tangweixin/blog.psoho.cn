@@ -45,6 +45,13 @@ export default {
             {text: 'ffmpeg命令收藏', link: '/skill/linux/ffmpeg-commands-favorites.md'},
             {text: 'RTMP流媒体服务', link: '/skill/linux/build-rtmp-stream-server-base-on-docker.md'},
             {text: 'DB小技巧', link: '/skill/linux/db-tips.md'},
+            {text: '安装ESXi-vSphere', link: '/skill/linux/install-ESXi-vSphere-6.5.md'},
+          ]
+        },
+        {
+          text: 'Java',
+          items: [
+            {text: 'Maven构建优化', link: '/skill/java/maven-build-optimize'},
           ]
         },
         {
